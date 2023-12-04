@@ -1,12 +1,9 @@
 {
   "name": "@nonamegeorge/jodit",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "build/jodit.min.js",
   "types": "./types/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nonamegeorge"
-  },
   "scripts": {
     "start": "make start",
     "clean": "make clean",
@@ -25,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xdan/jodit.git"
+    "url": "git+https://github.com/NoNameGeorge/jodit.git"
   },
   "keywords": [
     "wysiwyg",
@@ -43,12 +40,11 @@
     "vanillajs",
     "jodit"
   ],
-  "author": "Chupurnov <chupurnov@gmail.com> (https://xdsoft.net/jodit/)",
+  "author": "NNGeorge <utjhubqG@yandex.ru> (https://xdsoft.net/jodit/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xdan/jodit/issues"
+    "url": "https://github.com/NoNameGeorge/jodit/issues"
   },
-  "homepage": "https://xdsoft.net/jodit/",
   "dependencies": {
     "autobind-decorator": "^2.4.0"
   },
