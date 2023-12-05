@@ -32,19 +32,7 @@ export function poweredByJodit(jodit: IJodit): void {
 			(o as any).showXPathInStatusbar)
 	) {
 		jodit.hookStatus('ready', () => {
-			jodit.statusbar.append(
-				jodit.create.fromHTML(
-					`<a
-						tabindex="-1"
-						style="text-transform: uppercase"
-						class="jodit-status-bar-link"
-						target="_blank"
-						href="https://xdsoft.net/jodit/">
-							Powered by Jodit
-						</a>`
-				),
-				true
-			);
+			jodit.statusbar.append(jodit.create.fromHTML(``), true);
 		});
 	}
 }
