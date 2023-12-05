@@ -6,7 +6,7 @@
 
 module.exports = {
 	'Type something': 'Напишите что-либо',
-	'About Jodit': 'О Jodit',
+	'About Jodit': 'Переменные',
 	'Jodit Editor': 'Редактор Jodit',
 	"Jodit User's Guide": 'Jodit Руководство пользователя',
 	'contains detailed help for using':

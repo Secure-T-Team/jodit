@@ -32,25 +32,13 @@ Config.prototype.controls.about = {
 			.setHeader(i('About Jodit'))
 			.setContent(
 				`<div class="jodit-about">
-					<div>${i('Jodit Editor')} v.${editor.getVersion()}</div>
-					<div>${i(
-						'License: %s',
-						!isLicense(editor.o.license)
-							? 'MIT'
-							: normalizeLicense(editor.o.license)
-					)}</div>
-					<div>
-						<a href="${HOMEPAGE}" target="_blank">${HOMEPAGE}</a>
-					</div>
-					<div>
-						<a href="https://xdsoft.net/jodit/docs/" target="_blank">${i(
-							"Jodit User's Guide"
-						)}</a>
-						${i('contains detailed help for using')}
-					</div>
-					<div>${i(
-						'Copyright © XDSoft.net - Chupurnov Valeriy. All rights reserved.'
-					)}</div>
+					<div class="title">Переменные</div>
+					<div>{{.FirstName}} - Имя </div>
+					<div>{{.LastName}} - Фамилия</div>
+					<div>{{.CurrentDay}} - День</div>
+					<div>{{.CurrentMonth}} - Месяц</div>
+					<div>{{.CurrentYear}} - Год</div>
+					<div>{{.URL}} - ссылка на фиш. сайт</div>
 				</div>`
 			);
 
