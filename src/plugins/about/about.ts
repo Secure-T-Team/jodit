@@ -14,11 +14,10 @@ import './about.less';
 
 import type { IControlType, IJodit } from 'jodit/types';
 import { Config } from 'jodit/config';
-import { css, isLicense, normalizeLicense } from 'jodit/core/helpers/';
+import { css } from 'jodit/core/helpers/';
 import * as constants from 'jodit/core/constants';
 import { pluginSystem } from 'jodit/core/global';
 import { Icon } from 'jodit/core/ui/icon';
-import { HOMEPAGE } from 'jodit/core/constants';
 
 import aboutIcon from './about.svg';
 
