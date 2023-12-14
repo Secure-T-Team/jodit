@@ -31,13 +31,26 @@ Config.prototype.controls.about = {
 			.setHeader(i('About Jodit'))
 			.setContent(
 				`<div class="jodit-about">
-					<div class="title">Переменные</div>
-					<div>{{.FirstName}} - Имя </div>
+					<div class="title">Фишинг(жирным выделить):</div>
+					<div>{{.FirstName}} - Имя</div>
 					<div>{{.LastName}} - Фамилия</div>
 					<div>{{.CurrentDay}} - День</div>
 					<div>{{.CurrentMonth}} - Месяц</div>
 					<div>{{.CurrentYear}} - Год</div>
 					<div>{{.URL}} - ссылка на фиш. сайт</div>
+
+					<div class="title">Редактор шаблонов(тоже жерным выделить):</div>
+					<div>{{platform_name}} - название платформы с гиперссылкой на сайт</div>
+					<div>{{ip_address}} - ip адрес отправителя письма</div>
+					<div>{{user_name}} - имя пользователя</div>
+					<div>{{course_name}} - название курса</div>
+					<div>{{course_left_days}} - кол-во дней до конца курса</div>
+					<div>{{email}} - почта пользователя</div>
+					<div>{{support_email}} - почта службы поддержки</div>
+					<div>{{invite_url}} - ссылка на регистрацию</div>
+					<div>{{notify_text}} - текст сообщения (заполняется администратором)</div>
+					<div>{{link}} - ссылка на отчет</div>
+					<div>{{organization_title}} - название организации</div>
 				</div>`
 			);
 
