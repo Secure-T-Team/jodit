@@ -31,7 +31,7 @@ Config.prototype.controls.about = {
 			.setHeader(i('About Jodit'))
 			.setContent(
 				`<div class="jodit-about">
-					<div class="title">Фишинг(жирным выделить):</div>
+					<div class="title">Фишинг</div>
 					<div>{{.FirstName}} - Имя</div>
 					<div>{{.LastName}} - Фамилия</div>
 					<div>{{.CurrentDay}} - День</div>
@@ -39,7 +39,7 @@ Config.prototype.controls.about = {
 					<div>{{.CurrentYear}} - Год</div>
 					<div>{{.URL}} - ссылка на фиш. сайт</div>
 
-					<div class="title">Редактор шаблонов(тоже жерным выделить):</div>
+					<div class="title">Редактор шаблонов:</div>
 					<div>{{platform_name}} - название платформы с гиперссылкой на сайт</div>
 					<div>{{ip_address}} - ip адрес отправителя письма</div>
 					<div>{{user_name}} - имя пользователя</div>
