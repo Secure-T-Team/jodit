@@ -1,6 +1,6 @@
 {
-  "name": "@nonamegeorge/jodit",
-  "version": "1.0.16",
+  "name": "@sn.secure-t-org/jodit",
+  "version": "2.0.0",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "build/jodit.min.js",
   "types": "./types/index.d.ts",
